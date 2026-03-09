@@ -189,7 +189,7 @@ body { background-color: var(--game-bg-color); background-image: url('./image/Lo
     <button class="btn-core btn-back-hub ui-btn" style="width: 120px; height: 35px; font-size: 12px; position: absolute; top: 10px; left: 10px; margin: 0; z-index: 100;" onclick="quitToScreen('menu-screen')">QUAY LẠI</button>
     <div class="board-container" id="game-board"><div id="visual-grid" class="visual-grid"></div><div id="entity-layer"></div></div>
     <div class="bottom-control-area">
-        <div class="deck-wrapper-3d" onclick="executeCardDraw()" id="deck-wrapper-3d"><div class="deck-rotator" id="deck-rotator-node"><div class="deck-card-face face-back" id="deck-back-face">🎴</div><div class="deck-card-face face-front" id="drawn-card-result"></div></div></div>
+        <div class="deck-wrapper-3d" onclick="executeCardDraw()" id="deck-wrapper-3d"><div class="deck-rotator" id="deck-rotator-node"><div class="deck-card-face face-back" id="deck-back-face"></div><div class="deck-card-face face-front" id="drawn-card-result"></div></div></div>
         <p id="system-status-msg"></p>
     </div>
 </div>
@@ -258,7 +258,7 @@ const MUSIC_LIBRARY_DEFAULTS = {
 	"3strikes": { name: "3 Strikes", data: "./music/3-STRIKES.m4a", type: "local" }, 
 	"daylight": { name: "Daylight", data: "./music/Daylight.m4a", type: "local" }, 
 	"goldenhour": { name: "Golden Hour", data: "./music/golden-hour.m4a", type: "local" }, 
-	"cheatingonu": { name: "Cheating on You", data: "./music/Cheating-On-You.m4a", type: "local" }, 
+	"cheatingonu": { name: "Cheating on You", data: "./music/Cheating-on-You.m4a", type: "local" }, 
 	"howlong": { name: "How Long", data: "./music/How-Long.m4a", type: "local" }, 
 	"diewithasmile": { name: "Die With A Smile", data: "./music/Die-With-A-Smile.m4a", type: "local" },
 	"dangerously": { name: "Dangerously", data: "./music/Dangerously.m4a", type: "local" }
